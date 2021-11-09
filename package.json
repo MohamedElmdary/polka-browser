@@ -1,0 +1,17 @@
+{
+  "name": "polkat-browser",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "@polkadot/extension-dapp": "^0.41.1",
+    "grid3_client": "^0.0.13",
+    "ts-rmb-http-client": "^0.1.9"
+  }
+}
