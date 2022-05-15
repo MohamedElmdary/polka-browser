@@ -10,8 +10,9 @@
     "parcel": "^2.0.1"
   },
   "dependencies": {
+    "@polkadot/api": "^8.4.2",
     "@polkadot/extension-dapp": "^0.41.1",
-    "grid3_client": "^0.0.13",
-    "ts-rmb-http-client": "^0.1.9"
+    "grid3_client": "git+https://github.com/threefoldtech/grid3_client_ts.git#development_polkadot_extension",
+    "ts-rmb-http-client": "1.0.5"
   }
 }
